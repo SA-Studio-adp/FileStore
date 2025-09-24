@@ -1,12 +1,4 @@
-# Don't Remove Credit @CodeFlix_Bots, @rohit_1888
-# Ask Doubt on telegram @CodeflixSupport
-#
-# Copyright (C) 2025 by Codeflix-Bots@Github, < https://github.com/Codeflix-Bots >.
-#
-# This file is part of < https://github.com/Codeflix-Bots/FileStore > project,
-# and is released under the MIT License.
-# Please see < https://github.com/Codeflix-Bots/FileStore/blob/master/LICENSE >
-#
+
 # All rights reserved.
 #
 
@@ -23,7 +15,7 @@ APP_ID = int(os.environ.get("APP_ID", "27425401")) #Your API ID from my.telegram
 API_HASH = os.environ.get("API_HASH", "36150e358dd8bc2040dc8decd5250bcd") #Your API Hash from my.telegram.org
 #--------------------------------------------
 
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "")) #Your db channel Id
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002930785570")) #Your db channel Id
 OWNER = os.environ.get("OWNER", "sc_2008") # Owner username without @
 OWNER_ID = int(os.environ.get("OWNER_ID", "2107729544")) # Owner id
 #--------------------------------------------
